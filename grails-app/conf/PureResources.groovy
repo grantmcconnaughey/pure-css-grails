@@ -17,7 +17,7 @@ modules = {
     'pure-base' {
     	defaultBundle purePluginDefaultBundle
 
-        resource id: 'pure-all-base', url: [ plugin: 'pure-css', dir: 'css', file: (dev ? 'base.css' : 'base-min.css') ], exclude: 'minify', disposition: 'head'
+        resource id: 'pure-base', url: [ plugin: 'pure-css', dir: 'css', file: (dev ? 'base.css' : 'base-min.css') ], exclude: 'minify', disposition: 'head'
     }
 
     'pure-buttons' {
