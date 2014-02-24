@@ -1,14 +1,11 @@
 class PureCssGrailsPlugin {
     def version = "0.4.2"
     def grailsVersion = "2.0 > *"
-    def pluginExcludes = [ ]
 
-    def title = "Pure CSS Plugin" // Headline display name of the plugin
+    def title = "Pure CSS Plugin"
     def author = "Grant McConnaughey"
     def authorEmail = "grantmcconnaughey@gmail.com"
-    def description = '''\
-Provides Pure CSS resources to a Grails application.
-'''
+    def description = 'Provides Pure CSS resources to a Grails application.'
 
     def documentation = "http://grails.org/plugin/pure-css"
     def license = "APACHE"
