@@ -23,6 +23,7 @@ There are several modules you can include in your GSPs. Any module with "-nr" is
 * `pure-forms-nr`
 * `pure-grids`
 * `pure-grids-nr`
+* `pure-grids-responsive`
 * `pure-menus`
 * `pure-menus-nr`
 * `pure-tables`

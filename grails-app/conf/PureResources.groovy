@@ -55,6 +55,13 @@ modules = {
         resource id: 'pure-grids-nr', url: [ plugin: 'pure-css', dir: 'css', file: (dev ? 'grids-nr.css' : 'grids-nr-min.css') ], exclude: 'minify', disposition: 'head'
     }
 
+    'pure-grids-responsive' {
+        dependsOn 'pure-grids'
+        defaultBundle purePluginDefaultBundle
+
+        resource id: 'pure-grids-responsive', url: [ plugin: 'pure-css', dir: 'css', file: (dev ? 'grids-responsive.css' : 'grids-responsive-min.css') ], exclude: 'minify', disposition: 'head'
+    }
+
     'pure-menus' {
     	dependsOn 'pure-base'
     	defaultBundle purePluginDefaultBundle
